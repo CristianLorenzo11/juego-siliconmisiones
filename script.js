@@ -67,7 +67,7 @@ document.addEventListener('DOMContentLoaded', () => {
         } else {
             // Si es una X, perder una vida
             box.innerHTML = 'X';
-            box.style.backgroundColor = 'transparent';
+            box.style.background = 'transparent';
             loseLife();
         }
         box.removeEventListener('click', handleClick); // Evitar que se pueda volver a hacer clic en el mismo cuadro
@@ -106,7 +106,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 box.style.backgroundColor = 'white'; // Asegúrate de que el fondo sea transparente
             } else {
                 box.innerHTML = 'X';
-                box.style.backgroundColor = 'transparent'; // Asegúrate de que el fondo sea transparente
+                box.style.background = 'transparent'; // Asegúrate de que el fondo sea transparente
             }
         });
     
